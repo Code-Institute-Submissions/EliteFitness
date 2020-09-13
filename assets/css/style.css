@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+
+/* --- Home navigation --- */
+
+/* --- Image carousel --- */
+
+.carousel-container {
+    padding: 0;
+    height: 75vh;
+}
+
+.carousel-image {
+    height: 75vh;    
+}
+
+@media(max-width: 575.98px) {
+    .carousel-container {
+        padding: 0;
+        height: 50vh;
+    }
+
+    .carousel-image {
+        height: 50vh;    
+    }
+}
+
+/* --- Callout section */
