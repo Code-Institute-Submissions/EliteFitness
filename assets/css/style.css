@@ -2,15 +2,76 @@
 
 /* --- Home navigation --- */
 
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25)
+}
+
+.logo {
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    font-weight: 650;
+    font-size: 60px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #F48C06;
+    text-decoration: none;
+    background: transparent;
+}
+
+.navbar-nav {
+    padding-right: 30px;
+}
+
+.nav-item {
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #F48C06;
+}
 /* --- Image carousel --- */
 
 .carousel-container {
     padding: 0;
     height: 75vh;
+
+    
 }
 
 .carousel-image {
     height: 75vh;    
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 575.98px) {
@@ -23,5 +84,14 @@
         height: 50vh;    
     }
 }
+
+/*.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 75vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)*/
+
 
 /* --- Callout section */
