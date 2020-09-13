@@ -4,6 +4,7 @@
 
 .nav-container {
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -11,24 +12,29 @@
     z-index: 1;
 }
 
+
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25)
+    background-color: black;
 }
 
-.logo {
+.navbar-brand {
     color: #fff;
     font-family: "Abel", sans-serif;
     font-weight: 650;
     font-size: 60px;
-    padding-left: 20px;
+    margin-left: 10px;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
-.logo:hover {
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
     color: #F48C06;
     text-decoration: none;
     background: transparent;
@@ -52,6 +58,8 @@
 .navbar-light .navbar-nav .active>.nav-link {
     color: #F48C06;
 }
+
+
 /* --- Image carousel --- */
 
 .carousel-container {
