@@ -2,29 +2,18 @@
 
 /* --- Home navigation --- */
 
-.nav-container {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
-
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0,0,0,0.25);
 }
 
 .navbar-brand {
     color: #fff;
     font-family: "Abel", sans-serif;
     font-weight: 650;
-    font-size: 60px;
+    font-size: 30px;
     margin-left: 10px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -34,10 +23,9 @@
     color: #fff;
 }
 
-.navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #F48C06;
-    text-decoration: none;
-    background: transparent;
+    background: none;
 }
 
 .navbar-nav {
@@ -47,7 +35,7 @@
 .nav-item {
     font-family: "Abel", sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -70,9 +58,8 @@
 }
 
 .carousel-image {
-    height: 75vh;    
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 75vh; 
+    background: no-repeat center center fixed;  
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -80,6 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 @media(max-width: 575.98px) {
