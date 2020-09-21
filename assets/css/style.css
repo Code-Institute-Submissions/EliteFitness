@@ -58,7 +58,7 @@ body {
     background: transparent;
 }
 
-/* --- Image carousel --- */
+/* --- Image carousel & jumbotron--- */
 
 .carousel-container {
     padding: 0;
@@ -79,49 +79,51 @@ body {
     position: relative;
 }
 
-@media(max-width: 575.98px) {
-    .carousel-container {
-        padding: 0;
-        height: 50vh;
-    }
-
-    .carousel-image {
-        height: 50vh;    
-    }
-}
-
-/*.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 75vh;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5)*/
-
-
-/* --- Callout section */
 
 .jumbotron {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
     position: absolute;
     z-index: 1;
     clear: both;
     width: 100%;
-    height: 200px;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    bottom: 10px;
+    height: inherit;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #f1f1f1;
+    font-weight: 400;
+}
+
+.jumbotron-content-container {
+    
+    position: absolute;
+    top: 80%;
+    right: 0px;
+    left: 0px;
+}
+
+.jumbotron-content-container h1 {
+    letter-spacing: 3px;
+}
+
+.jumbotron-btn {
+    background-color: #f48c06;
+    border-color:  #f48c06;
+}
+
+.jumbotron-btn:hover {
+    background-color: #ca7912;
+    border-color:  #ca7912;
 }
 
 /* --- Footer --- */
 
 footer {
-    min-height: 100px;
+    
     color: #fff;
     background-color:#191919;
     margin: 0;
     padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer-content {
@@ -147,4 +149,35 @@ footer {
 
 footer a {
     margin-left: 5px;
+}
+
+/* --- Media Queries --- */
+
+@media screen and (max-width: 575.98px) {
+    .carousel-container {
+        padding: 0;
+        height: 50vh;
+    }
+
+    .carousel-image {
+        height: 50vh;    
+    }
+
+    .jumbotron-btn {
+        font-size: 15px; 
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jumbotron-content-container h1 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .jumbotron-content-container {
+        top: 60%;
+    
+    }
 }
