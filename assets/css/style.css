@@ -115,6 +115,21 @@ body {
     border-color:  #ca7912;
 }
 
+/* --- Membership options --- */
+
+.membership-options-container {
+    height: 50vh;
+    
+}
+
+.membership-container {
+    height: inherit;
+}
+
+.membership-content {
+    height: 70%;
+}
+
 /* --- Footer --- */
 
 footer {
