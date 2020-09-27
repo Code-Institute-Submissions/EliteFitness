@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500&display=swap');
 
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 /* --- Home navigation --- */
@@ -12,7 +16,10 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+}
+
+.nav-bg {
+    background-color: rgba(0,0,0,0.3); /* bg color not working when placed under navbar, seperate class created to set rgba*/
 }
 
 .navbar-brand {
@@ -118,16 +125,36 @@ body {
 /* --- Membership options --- */
 
 .membership-options-container {
-    height: 50vh;
-    
+    flex: 1 1 auto;
+    padding-top: 15px;
+    background-color: #191919;
 }
 
+
 .membership-container {
-    height: inherit;
+    padding: 15px;
 }
 
 .membership-content {
-    height: 70%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+}
+
+.membership-content ul {
+    list-style-type:none;
+    padding-left: 0;
+}
+/* --- Miscellanoeus --- */
+
+.header {
+    font-family: "Abel", sans-serif;
+    letter-spacing: 2px;
+    color: #f48c06;
+}
+
+.header-minor {
+    font-weight: 500px;
 }
 
 /* --- Footer --- */
@@ -195,4 +222,8 @@ footer a {
         top: 60%;
     
     }
+
+    .membership-container {
+    padding: 7px 15px 7px 15px;
+}
 }
