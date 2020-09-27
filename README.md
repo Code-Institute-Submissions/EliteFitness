@@ -36,6 +36,7 @@ Features of the site
 * HTML
 * CSS
 * Bootstrap
+* Fancybox
 
 # Testing
 
@@ -47,10 +48,19 @@ How the site is deployed
 
 # Credits
 
-### Code - code taken from other sources if used
+### Code 
+
+* Fancybox used for image gallery 
+* Bootstrap used throughout website
+
 ### Content - any written content taken from other sources i.e Wikipedia
-### Media - images/videos used from sources
+
+### Media 
+
+* Images taken from Rory Skerritt Fitness Facebook page
+
 ### Resources
+
 * A github page that contains a [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) with tips on how to write Markdown for this README file.
 * The Code Institute [README template](https://github.com/Code-Institute-Solutions/readme-template) for the basic structure to follow when creating a README file.
 * The Code Institute [Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) that installs useful tools into Gitpod.
