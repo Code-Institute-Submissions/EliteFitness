@@ -132,7 +132,7 @@ body {
 
 
 .membership-container {
-    padding: 15px;
+    padding: 7px 15px 7px 15px;
 }
 
 .membership-content {
@@ -145,6 +145,11 @@ body {
     list-style-type:none;
     padding-left: 0;
 }
+
+/* --- Image gallery --- */
+
+
+
 /* --- Miscellanoeus --- */
 
 .header {
@@ -225,5 +230,9 @@ footer a {
 
     .membership-container {
     padding: 7px 15px 7px 15px;
-}
+    }
+
+    .image-container {
+        padding: 0;
+    }
 }
