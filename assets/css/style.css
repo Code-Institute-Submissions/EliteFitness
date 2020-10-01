@@ -128,7 +128,8 @@ body {
     flex: 1 1 auto;
     padding-top: 15px;
     background-color: #191919;
-    
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;
 }
 
 
@@ -172,6 +173,9 @@ body {
 .gallery-container {
     background-color: #191919;
     padding: 15px;
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
     
 }
 
@@ -213,6 +217,8 @@ footer {
     margin: 0;
     padding-top: 10px;
     font-family: "Montserrat", sans-serif;
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-top: 1px solid;
 }
 
 .footer-content {
