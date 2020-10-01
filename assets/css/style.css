@@ -205,7 +205,6 @@ body {
 }
 
 .about-image-container {
-    background: url('../images/about-us-bg.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -215,11 +214,12 @@ body {
     align-items: center;
     justify-content: center;
 
-    position: relative;
-    height: 400px;
-    width: 400px;
-    
-    
+    position: relative; 
+}
+
+.about-image-container img {
+    height: 300px;
+    width: 300px;
 }
 
 /* --- Miscellanoeus --- */
@@ -336,6 +336,15 @@ footer a {
     .image-container-row {
         margin-left: 100px;
         margin-right: 100px;
+    }
+
+}
+
+
+@media screen and (min-width: 1119px) {
+    .about-image-container img {
+        height: 400px;
+        width: 400px;
     }
 
 }
