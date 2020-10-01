@@ -146,6 +146,25 @@ body {
     padding-left: 0;
 }
 
+.membership-callout p {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.membership-callout span {
+    vertical-align: bottom;
+}
+
+
+.membership-callout span:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
 /* --- Image gallery --- */
 
 
