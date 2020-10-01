@@ -192,12 +192,13 @@ body {
 
 .about-us-container {
     padding-top: 80px;
+    padding-bottom: 15px;
     background-color: #191919;
     color: #f1f1f1;
 }
 
 .about-us-content {
-
+    padding-top: 15px;
 }
 
 .about-us-image {
