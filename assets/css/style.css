@@ -180,7 +180,7 @@ body {
 }
 
 .gallery-container h1 {
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
 }
 
 .image-container {
@@ -188,6 +188,39 @@ body {
     padding: 0px 0px 15px 0px;
 }
 
+/* --- About us --- */
+
+.about-us-container {
+    padding-top: 80px;
+    background-color: #191919;
+    color: #f1f1f1;
+}
+
+.about-us-content {
+
+}
+
+.about-us-image {
+    padding: 15px 0px 15px 0px;
+}
+
+.about-image-container {
+    background: url('../images/about-us-bg.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    height: 400px;
+    width: 400px;
+    
+    
+}
 
 /* --- Miscellanoeus --- */
 
@@ -281,6 +314,14 @@ footer a {
     padding: 7px 15px 7px 15px;
     }
 
+}
+
+@media screen and (max-width: 992px) {
+
+    .about-image-container {
+        height: 300px;
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 768px) {
