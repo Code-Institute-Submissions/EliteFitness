@@ -37,6 +37,7 @@ Features of the site
 * CSS
 * Bootstrap
 * Fancybox
+* [Resizeimage.net](https://resizeimage.net/) for cropping and resizing images used in the project
 
 # Testing
 
@@ -64,6 +65,9 @@ How the site is deployed
 * A github page that contains a [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) with tips on how to write Markdown for this README file.
 * The Code Institute [README template](https://github.com/Code-Institute-Solutions/readme-template) for the basic structure to follow when creating a README file.
 * The Code Institute [Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) that installs useful tools into Gitpod.
+* [W3schools](https://www.w3schools.com/) for various tutorials on HTML, CSS and Bootstrap
+* [Coolors](https://coolors.co/) for colour palette ideas
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) for information on the tools included in Bootstrap
 
 # Acknowledgements
 
