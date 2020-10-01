@@ -139,6 +139,7 @@ body {
     background-color: #f1f1f1;
     padding: 15px;
     text-align: center;
+    height: 290px;
 }
 
 .membership-content ul {
@@ -167,6 +168,19 @@ body {
 
 /* --- Image gallery --- */
 
+.gallery-container {
+    background-color: #191919;
+    padding: 15px;
+}
+
+.gallery-container h1 {
+    padding: 10px 0 10px 0;
+}
+
+.image-container {
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+}
 
 
 /* --- Miscellanoeus --- */
@@ -180,6 +194,13 @@ body {
 .header-minor {
     font-weight: 500px;
 }
+
+.section-border {
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;
+}
+
+
 
 /* --- Footer --- */
 
@@ -220,6 +241,7 @@ footer a {
 /* --- Media Queries --- */
 
 @media screen and (max-width: 575.98px) {
+
     .carousel-container {
         padding: 0;
         height: 50vh;
@@ -251,7 +273,13 @@ footer a {
     padding: 7px 15px 7px 15px;
     }
 
-    .image-container {
-        padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+
+    .image-container-row {
+        margin-left: 100px;
+        margin-right: 100px;
     }
+
 }
