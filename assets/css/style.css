@@ -219,34 +219,32 @@ body {
     width: 300px;
 }
 
-/* --- Miscellanoeus --- */
+/* --- Meet the team --- */
 
-.header {
-    font-family: "Abel", sans-serif;
-    letter-spacing: 2px;
-    color: #f48c06;
+.team-container {
+    background-color: #191919;
+    color: #f1f1f1;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.header-minor {
-    font-weight: 500px;
+.team-container h1 {
+    padding-bottom: 15px;
 }
 
-.section-border-bottom {
-    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
-    border-bottom: 1px solid;
+.team-container h3 {
+    padding-top: 15px
 }
 
-.section-border-top {
-    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
-    border-top: 1px solid;
+.team-container p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.section-border-both { /* top and bottom border */
-    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+.team-member-container {
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
 /* --- Footer --- */
 
 footer {
@@ -281,6 +279,35 @@ footer {
 
 footer a {
     margin-left: 5px;
+}
+
+
+/* --- Miscellanoeus --- */
+
+.header {
+    font-family: "Abel", sans-serif;
+    letter-spacing: 2px;
+    color: #f48c06;
+}
+
+.header-minor {
+    font-weight: 500px;
+}
+
+.section-border-bottom {
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;
+}
+
+.section-border-top {
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-top: 1px solid;
+}
+
+.section-border-both { /* top and bottom border */
+    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
 }
 
 /* --- Media Queries --- */
