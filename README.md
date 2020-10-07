@@ -68,6 +68,8 @@ How the site is deployed
 * [W3schools](https://www.w3schools.com/) for various tutorials on HTML, CSS and Bootstrap
 * [Coolors](https://coolors.co/) for colour palette ideas
 * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) for information on the tools included in Bootstrap
+* [Pxhere](https://pxhere.com/) for gym trainer image
+* [Pexels](https://www.pexels.com/) for further gym trainer images
 
 # Acknowledgements
 
