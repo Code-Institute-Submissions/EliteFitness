@@ -135,6 +135,7 @@ body {
 
 .membership-container {
     padding: 7px 15px 7px 15px;
+    
 }
 
 .membership-content {
@@ -143,6 +144,11 @@ body {
     text-align: center;
     height: 290px;
     border-radius: 25px; 
+}
+
+.membership-content h4 {
+    padding-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .membership-content ul {
@@ -408,7 +414,8 @@ footer a {
 @media screen and (min-width: 768px) {
 
     .membership-content {
-        padding: 40px;
+        
+        
     }
 
     .tt-container {
@@ -437,4 +444,8 @@ footer a {
         width: 400px;
     }
 
+    .membership-content {
+        height: 300px;
+        padding: 40px 30px 30px 30px;
+    }
 }
