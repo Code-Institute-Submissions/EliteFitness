@@ -245,6 +245,18 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/* --- Timetable --- */
+
+.tt-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f1f1f1;
+}
+
+.tt-container th {
+    font-size: 18px;
+}
 /* --- Footer --- */
 
 footer {
@@ -345,6 +357,11 @@ footer a {
     padding: 7px 15px 7px 15px;
     }
 
+    .tt-container {
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -360,6 +377,11 @@ footer a {
     .membership-content {
         padding: 40px;
     }
+
+    .tt-container {
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -369,6 +391,10 @@ footer a {
         margin-right: 100px;
     }
 
+    .tt-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 
