@@ -139,9 +139,10 @@ body {
 
 .membership-content {
     background-color: #f1f1f1;
-    padding: 15px;
+    padding: 30px 15px 15px 15px;
     text-align: center;
     height: 290px;
+    border-radius: 25px; 
 }
 
 .membership-content ul {
@@ -266,7 +267,7 @@ body {
     text-align: center;
     height: 200px;
     margin-bottom: 15px; 
-    border-radius: 25px;   
+    border-radius: 25px;  
     padding-top: 30px;
 }
 
