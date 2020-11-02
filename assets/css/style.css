@@ -248,8 +248,30 @@ body {
 
 /* --- Timetable --- */
 
+.options-container {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color:#191919;
+}
+
+.optons-inner-container {
+    padding: 7px 15px 7px 15px;
+}
+
+.options-content {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 15px; 
+    border-radius: 25px;   
+    padding-top: 30px;
+}
+
 .tt-container {
-    padding-top: 200px;
+    padding-top: 0px;
     padding-bottom: 200px;
     background-color: #f1f1f1;
 }
@@ -358,10 +380,20 @@ footer a {
     }
 
     .tt-container {
-        padding-top: 70px;
+        padding-top: 0px;
         padding-bottom: 10px;
     }
 
+    .options-content {
+        padding-top: 30px;
+        height: 250px;
+    }
+
+    .options-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -379,7 +411,7 @@ footer a {
     }
 
     .tt-container {
-        padding-top: 70px;
+        padding-top: 0px;
         padding-bottom: 10px;
     }
 }
