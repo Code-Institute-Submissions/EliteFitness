@@ -286,6 +286,38 @@ body {
 .tt-container th {
     font-size: 18px;
 }
+
+/* --- Contact form --- */
+
+.form-container {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+form {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    background-color: #fafafa;
+}
+
+/* --- Location Details --- */
+
+.location-container {
+    background-color: #ffffff;
+}
+
+.location-details {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /* --- Footer --- */
 
 footer {
@@ -351,25 +383,6 @@ footer a {
     border-top: 1px solid;
 }
 
-/* --- Contact form --- */
-
-.form-container {
-    width: 100%;
-    background-color: #fafafa;
-}
-
-form {
-    width: 95%;
-    margin: auto;
-    padding: 15px;
-    background-color: #ffffff;
-    margin-top: 90px;
-    margin-bottom: 15px;
-}
-
-.form-input {
-    background-color: #fafafa;
-}
 
 /* --- Media Queries --- */
 
