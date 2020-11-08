@@ -67,12 +67,12 @@ body {
 
 .carousel-container {
     padding: 0;
-    height: 75vh;
+    height: 100vh;
     position: relative;    
 }
 
 .carousel-image {
-    height: 75vh; 
+    height: 100vh; 
     background: no-repeat center center fixed;  
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -102,7 +102,7 @@ body {
 .jumbotron-content-container {
     
     position: absolute;
-    top: 80%;
+    top: 60%;
     right: 0px;
     left: 0px;
 }
@@ -384,16 +384,7 @@ footer a {
 
 @media screen and (max-width: 575.98px) {
 
-    .carousel-container {
-        padding: 0;
-        height: 50vh;
-    }
-
-    .carousel-image {
-        height: 50vh;    
-    }
-
-    .jumbotron-btn {
+       .jumbotron-btn {
         font-size: 15px; 
         padding-bottom: 0px;
         padding-top: 0px;
@@ -440,13 +431,24 @@ footer a {
     }
 }
 
-
-@media screen and (min-width: 768px) {
-
-    .membership-content {
-        
-        
+@media screen and (max-width: 768px) {
+    .carousel-container {
+        padding: 0;
+        height: 50vh;
     }
+
+    .carousel-image {
+        height: 50vh;    
+    }
+
+    .jumbotron {
+        height: 50vh;
+    }
+}
+
+/*@media screen and (min-width: 768px) {
+
+   
 
     .tt-container {
         padding-top: 0px;
@@ -456,7 +458,7 @@ footer a {
     form {
         width: 50%;
     }
-}
+}*/
 
 @media screen and (min-width: 992px) {
 
@@ -468,6 +470,17 @@ footer a {
     .tt-container {
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+     .carousel-container {
+        padding: 0;
+        height: 50vh;
+    }
+
+    .carousel-image {
+        height: 50vh;    
     }
 }
 
