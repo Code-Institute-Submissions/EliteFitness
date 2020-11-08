@@ -124,24 +124,23 @@ body {
 
 .membership-options-container {
     flex: 1 1 auto;
-    padding-top: 15px;
-    background-color: #191919;
-    border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
-    border-bottom: 1px solid;
+    /*padding-top: 15px;*/
+    background-color: #fafafa;
+    /*border-image: radial-gradient(rgb(241, 241, 241), rgba(0, 0, 0, 0.2)) 1;
+    border-bottom: 1px solid;*/
 }
 
 
 .membership-container {
-    padding: 7px 15px 7px 15px;
+    /*padding: 7px 15px 7px 15px;*/
     
 }
 
 .membership-content {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     padding: 30px 15px 15px 15px;
     text-align: center;
-    height: 290px;
-    border-radius: 25px; 
+    height: 300px;
 }
 
 .membership-content h4 {
@@ -155,11 +154,10 @@ body {
 }
 
 .membership-callout p {
-    color: #fff;
-    font-size: 25px;
-    padding: 10px 0px 10px 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: #191919;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
@@ -169,7 +167,7 @@ body {
 
 
 .membership-callout span:hover {
-    color: #fff;
+    color: #ca7912;
     background-color: transparent;
 }
 
