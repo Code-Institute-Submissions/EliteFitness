@@ -82,6 +82,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    max-width: none;
 }
 
 
@@ -174,7 +175,7 @@ body {
 /* --- Image gallery --- */
 
 .gallery-container {
-    background-color: #191919;
+    background-color: #d6d6d6;
     padding: 15px;   
 }
 
