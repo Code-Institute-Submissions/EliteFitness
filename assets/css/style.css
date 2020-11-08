@@ -19,7 +19,7 @@ body {
 }
 
 .nav-bg {
-    background-color: rgba(0,0,0,0.3); /* bg color not working when placed under navbar, seperate class created to set rgba*/
+    background-color: rgba(0,0,0,0.5); /* bg color not working when placed under navbar, seperate class created to set rgba*/
 }
 
 .navbar-brand {
