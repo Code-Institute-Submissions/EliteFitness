@@ -351,6 +351,26 @@ footer a {
     border-top: 1px solid;
 }
 
+/* --- Contact form --- */
+
+.form-container {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+form {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    background-color: #fafafa;
+}
+
 /* --- Media Queries --- */
 
 @media screen and (max-width: 575.98px) {
@@ -411,6 +431,7 @@ footer a {
     }
 }
 
+
 @media screen and (min-width: 768px) {
 
     .membership-content {
@@ -421,6 +442,10 @@ footer a {
     .tt-container {
         padding-top: 0px;
         padding-bottom: 10px;
+    }
+
+    form {
+        width: 50%;
     }
 }
 
