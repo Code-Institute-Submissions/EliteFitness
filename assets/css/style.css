@@ -235,7 +235,18 @@ body {
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color:#f1f1f1;
+    /*background-color:#f1f1f1;*/
+    background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
+    width: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: none;*/
 }
 
 .optons-inner-container {
@@ -248,7 +259,6 @@ body {
     text-align: center;
     height: 200px;
     margin-bottom: 15px; 
-    border-radius: 25px;  
     padding-top: 30px;
     width: 70%;
 }
@@ -335,6 +345,11 @@ footer a {
 .header {
     letter-spacing: 2px;
     color: #f48c06;
+}
+
+.header-other {
+    letter-spacing: 2px;
+    color: #ffffff;
 }
 
 .header-minor {
