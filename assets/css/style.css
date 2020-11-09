@@ -304,8 +304,8 @@ form {
 }
 
 .location-details iframe {
-    height: 100%;
-    width: 90%;
+    height: 500px;
+    width: 500px;
 }
 
 /* --- Footer --- */
@@ -428,6 +428,20 @@ footer a {
     .tt-container {
         padding-top: 65px;
     }
+
+    .location-details iframe {
+        height: 300px;
+        width: 300px;
+    }
+
+    form {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -436,6 +450,7 @@ footer a {
         height: 300px;
         width: 300px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -452,14 +467,17 @@ footer a {
         height: 50vh;
     }
 
-    form {
-        width: 80%;
-    }
+    
+
 }
+
 
 @media screen and (min-width: 768px) {
 
-
+    /*.location-details iframe {
+        height: 500px;
+        width: 500px;
+    }*/
 }
 
    
