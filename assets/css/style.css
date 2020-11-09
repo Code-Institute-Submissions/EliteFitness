@@ -269,7 +269,7 @@ body {
 }
 
 .tt-container th {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* --- Contact form --- */
@@ -280,7 +280,7 @@ body {
 }
 
 form {
-    width: 95%;
+    width: 50%;
     margin: auto;
     padding: 15px;
     background-color: #ffffff;
@@ -301,6 +301,11 @@ form {
 .location-details {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.location-details iframe {
+    height: 100%;
+    width: 90%;
 }
 
 /* --- Footer --- */
@@ -420,7 +425,9 @@ footer a {
         padding-bottom: 15px;
     }
 
-    
+    .tt-container {
+        padding-top: 65px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -444,21 +451,18 @@ footer a {
     .jumbotron {
         height: 50vh;
     }
-}
-
-/*@media screen and (min-width: 768px) {
-
-   
-
-    .tt-container {
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
 
     form {
-        width: 50%;
+        width: 80%;
     }
-}*/
+}
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+   
 
 @media screen and (min-width: 992px) {
 
