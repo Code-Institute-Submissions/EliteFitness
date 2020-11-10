@@ -205,6 +205,13 @@ body {
     padding-bottom: 15px;
     background-color: #fafafa;
     color: #191919;
+    background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
+    width: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
 }
 
 .about-us-container h1 {
@@ -214,15 +221,10 @@ body {
 /* --- Meet the team --- */
 
 .team-container {
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     color: #191919;
     padding-bottom: 15px;
-    background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
-    width: 100%;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+    
 }
 
 .team-container h1 {
@@ -249,7 +251,7 @@ body {
 .options-container {
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 90px;
     padding-bottom: 15px;
     /*background-color:#f1f1f1;*/
     background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
@@ -280,7 +282,7 @@ body {
 }
 
 .tt-container {
-    padding-top: 70px;
+    padding-top: 0px;
     background-color: #f1f1f1;
 }
 
@@ -299,6 +301,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     padding-top: 85px;
+    padding-bottom: 15px;
 }
 
 form {
@@ -318,6 +321,8 @@ form {
 
 .location-container {
     background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .location-details {
@@ -448,7 +453,7 @@ footer a {
     }
 
     .tt-container {
-        padding-top: 65px;
+        padding-top: 0px;
     }
 
     .location-details iframe {
