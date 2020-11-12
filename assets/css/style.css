@@ -186,12 +186,12 @@ body {
 
 .gallery-container {
     background-color: #fafafa;
-    padding: 15px;   
+    /*padding: 15px;*/
 }
 
-.gallery-container h1 {
+/*.gallery-container h1 {
     padding: 15px 0 15px 0;
-}
+}*/
 
 .image-container {
     margin: 0px;
@@ -321,7 +321,7 @@ form {
 
 .location-container {
     background-color: #ffffff;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     padding-bottom: 15px;
 }
 
@@ -409,6 +409,13 @@ footer a {
 
 @media screen and (max-width: 575.98px) {
 
+    .membership-content {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+
         .navbar-brand {
             font-size: 25px;
         }
@@ -476,6 +483,7 @@ footer a {
     .about-image-container {
         height: 300px;
         width: 300px;
+        width: 
     }
 
 }
@@ -494,19 +502,16 @@ footer a {
         height: 50vh;
     }
 
-    
+    /*.membership-options-container .membership-container .membership-content-3 {
+        width: 50%;*/
+    }
 
 }
 
 
 @media screen and (min-width: 768px) {
 
-    /*.location-details iframe {
-        height: 500px;
-        width: 500px;
-    }*/
-}
-
+    
    
 
 @media screen and (min-width: 992px) {
@@ -522,7 +527,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
      .carousel-container {
         padding: 0;
         height: 50vh;
@@ -537,8 +542,7 @@ footer a {
     }
 }
 
-
-@media screen and (min-width: 1119px) {
+@media screen and (min-width: 1199px) {
     .about-image-container img {
         height: 400px;
         width: 400px;
