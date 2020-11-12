@@ -52,26 +52,29 @@
         <section class="form-container container-fluid">
             <header class="text-center">
                 <h1 class="header-other">Send Us A Message</h1>
+                <p">Book a session, speak to our coaches, set up your membership, ask a question</p>
             </header>
-            <div class="row">
-                <div class="col-12 text-center ">
-                    <form class="shadow p-3 mb-4 bg-white rounded">
-                        <div class="form-group">
+                <form class="shadow p-3 mb-4 bg-white rounded text-center">
+                    <div class="form-row">
+                        <div class=" col-12 form-group">
                             <label for="name" class="header-minor">Name</label>
-                            <input type="text" id="name" class="form-control form-input">
+                            <input type="text" id="name" class="form-control form-input" required>
                         </div>
-                        <div class="form-group">
-                            <label for="email" class="header-minor">Email Address</label>
-                            <input type="email" id="email" class="form-control form-input">
+                        <div class="col-12 col-md-6 form-group ">
+                            <label for="email" class="header-minor ">Email Address</label>
+                            <input type="email" id="email" class="form-control form-input" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-12 col-md-6">
+                            <label for="number" class="header-minor ">Phone Number</label>
+                            <input type="tel" id="number" class="form-control form-input" required>
+                        </div>
+                        <div class="form-group col-12">
                             <label for="message" class="header-minor">Your Message</label>
-                            <textarea class="form-control form-input" id="message" rows="3"></textarea>
+                            <textarea class="form-control form-input" id="message" rows="3" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary jumbotron-btn ">Send</button> <!-- resused jumbotron-btn class here for same button styling-->
-                    </form>
-                </div>
-            </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-btn">Send</button> 
+                </form>
         </section>
 
         <!-- Address details and map-->

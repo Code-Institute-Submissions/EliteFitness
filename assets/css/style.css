@@ -323,6 +323,11 @@ form {
     background-color: #fafafa;
 }
 
+.form-btn {
+    background-color: #f48c06;
+    border-color: #f48c06;
+}
+
 /* --- Location Details --- */
 
 .location-container {
