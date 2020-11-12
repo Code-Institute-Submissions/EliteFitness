@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500;600;700&display=swap');
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -119,6 +119,12 @@ body {
 .jumbotron-btn:hover {
     background-color: #ca7912;
     border-color:  #ca7912;
+}
+
+/* --- Intro section --- */
+
+.intro-content {
+    font-size: 25px;
 }
 
 /* --- Membership options --- */
