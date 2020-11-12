@@ -328,6 +328,10 @@ form {
     border-color: #f48c06;
 }
 
+.form-btn:hover {
+    background-color: #ca7912;
+    border-color:  #ca7912;
+
 /* --- Location Details --- */
 
 .location-container {
