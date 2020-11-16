@@ -342,13 +342,22 @@ form {
 }
 
 .location-details {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     margin-bottom: 15px;
 }
 
+.location-details h3 {
+    
+  
+}
+
+.location-details p {
+    margin-bottom: 5px;
+}
+
 .location-details iframe {
-    height: 500px;
-    width: 500px;
+    width: 95%;
+    height: 95%;
 }
 
 /* --- Footer --- */
@@ -426,13 +435,6 @@ footer a {
 
 @media screen and (max-width: 575.98px) {
 
-    .membership-content {
-        max-width: 540px;
-    }
-}
-
-@media screen and (max-width: 575.98px) {
-
         .navbar-brand {
             font-size: 25px;
         }
@@ -480,22 +482,33 @@ footer a {
         padding-top: 0px;
     }
 
-    .location-details iframe {
-        height: 300px;
-        width: 300px;
-    }
-
     form {
         width: 95%;
     }
+
+    .membership-content {
+        max-width: 540px;
+    }
+
+    .location-details iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    .location-details {
+        padding: 0px;
+        margin-bottom: 15px;
+    }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
 
-
+    .location-details iframe {
+        height: 500px;
+    }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.98px) {
 
     .about-image-container {
         height: 300px;
@@ -505,7 +518,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
     .carousel-container {
         padding: 0;
         height: 50vh;
@@ -528,7 +541,11 @@ footer a {
 
 @media screen and (min-width: 768px) {
 
-    
+    .location-details iframe {
+        height: 95%;
+        width: 95%;
+    }
+}
    
 
 @media screen and (min-width: 992px) {
@@ -544,7 +561,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.98px) {
      .carousel-container {
         padding: 0;
         height: 50vh;
@@ -559,7 +576,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
     .about-image-container img {
         height: 400px;
         width: 400px;
