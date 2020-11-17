@@ -1,13 +1,13 @@
 # Elite Fitness
 
 # Project Introduction
-This is a website for a gym called Elite Fitness. They specilaise in small group personal trainign which sets them apart from other gyms.
+This is a website for a gym called Elite Fitness. They specilaise in small group personal training which sets them apart from other gyms.
 
 The website's purpose is to provide information to current and new clients about their style of gym and what they offer.
 
-The website shows the user what it is like inside the gym, what the memerbship options are, when the classes are on and what the class options are, it provides contact and address information including a Google Map view. There is also a form for the user to senmd a message to the gym.
+The website shows the user what it is like inside the gym, what the memerbship options are, when the classes are on and what the class options are, it provides contact and address information including a Google Map view. There is also a form for the user to send a message to the gym.
 
-I chose to create a website for a gym for this project as exercise is something I enjoy in and would usually go to the gym four or five tines a week. 
+I chose to create a website for a gym for this project as exercise is something I enjoy and would usually go to the gym four or five tines a week. 
 
 The gym this website is based on is the gym I am a member of.
 
@@ -39,7 +39,7 @@ The gym this website is based on is the gym I am a member of.
 
 * Navigation bar always visible even when scrolling down so the user can easily navigate the website.
 * Homepage image carousel takes up entire screen on desktop and half screen on tablet and mobile as I felt this looked better.
-* On mentor advice, I added a snippet of text taken from the "About Us" section and added it above the membership options as a tyoe fo marketing banner giving an introduction to the gym.
+* On mentor advice, I added a snippet of text taken from the "About Us" section and added it above the membership options as a type of marketing banner giving an introduction to the gym.
 * Headings added to sections to help define what they are for the user i.e "Take A Look Inside" for the image gallery.
 * Six images instead of five for the image gallery as it made better use of the space and also provides more information for the user.
 * Image gallery layout 3 x 2 on tablet and as a block on mobile as it looked better.
@@ -94,7 +94,7 @@ This is a fully responsive website allowing the user to find out all they need a
 * There is a small marketing style introduction giving some information about the gym.
 * The membership options are displayed in three cards that are responsive depending on the breakpoint.
 * Under the membership cards there is a call to action to contact the gym to find out more. The "Contact us" links to the "Contact page".
-* On desktop the "Cntact Us" changes colour on hover.
+* On desktop the "Contact Us" changes colour on hover.
 * There is an image gallery showing some images from inside the gym. The thumbnails can be clicked on which shows the fullsize image and the user can click the arrows to navigate to the next image.
 
 ### About:
