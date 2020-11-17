@@ -131,13 +131,7 @@ This is a fully responsive website allowing the user to find out all they need a
 
 # Testing
 
-
-### Validation:
-* CSS tested using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
-    * Errors fixed: invalid value for font weight, also "px" used in font weight and an empty width value removed. Checked CSS in the validator again once these errors were removed and there were no further errors. 
-* HTML tested using the [W3C Validator](https://validator.w3.org/).
-    * Errors fixed: stray start tag - JS was outside of the body element on all pages, frameborder from iframe was obsolete.
-    * Edits based on warnings: headings added into articles and some sections changed to articles.
+All testing information can be located in the [TESTING.md](https://github.com/HollyC7/EliteFitness/blob/master/TESTING.md) file.
 
 # Deployment
 
@@ -193,8 +187,6 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 3. On the top right located under yoru profile icon, select "fork".
 4. There will not be a copy in your own repository.
 
-
-
 # Credits
 
 ### Code:
@@ -226,5 +218,5 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 # Acknowledgements
 
 * I took inspiration for this website and the gym ethos from the gym I am a memeber of, [Rory Skerrit Fitness Limerick](https://www.facebook.com/pages/category/Fitness-Boot-Camp/Rory-Skerritt-Fitness-Limerick-104753844210216/). They specialise in small group personal training. 
-
-
+* The Code Institute Slack community for their advice.
+* My mentor for his advice, suggestions and feedback.
