@@ -306,6 +306,11 @@ form {
     border-color:  #ca7912;
 }
 
+.form-btn:active {
+    background-color: #ca7912;
+    border-color:  #ca7912;
+}
+
 /* --- Location Details --- */
 
 .location-container {
