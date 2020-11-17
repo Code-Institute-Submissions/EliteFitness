@@ -65,9 +65,9 @@ The colours used can affect how a user responds or feels. I chose colours that s
 
 # Features
 
-This is a fully responsive website allowing the user to find out all they need about this gyms
+This is a fully responsive website allowing the user to find out all they need about this gym on multiple devices.
 
-![Image showing site on multiple devices](assets/images/responsive-devices.png)
+![Image showing site on multiple devices](https://github.com/HollyC7/EliteFitness/blob/master/assets/images/responsive-devices.JPG)
 
 ### Navigation Bar
 
@@ -168,6 +168,7 @@ How the site is deployed
 * A colour association PDF file created by a Code Insitute student which helped me decide on the colours to use for the website.
 * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) for information on the tools included in Bootstrap
 * [Google Maps](https://www.google.ie/maps/place/Skycourt+Shopping+Centre,+Shannon+Town+Centre,+Tullyvarraga,+Shannon,+Co.+Clare/@52.710461,-8.8818376,17z/data=!3m1!4b1!4m5!3m4!1s0x485b41d4fed069cd:0x7897afe26116153b!8m2!3d52.7104578!4d-8.8796489) for the map I used on my contact page.
+* [Am I Responsive?](http://ami.responsivedesign.is/#) to show the site on multiple devices.
 
 # Acknowledgements
 
