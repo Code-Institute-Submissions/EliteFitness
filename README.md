@@ -49,7 +49,25 @@ The gym this website is based on is the gym I am a member of.
 * The form is the first section on the "Contact" page so the user could find it immediately if they wanted to contact the gym.
 * Social media icons and links are the last item shown on the footer.
 
+### Colour Palette
+
+The colours used can affect how a user responds or feels. I chose colours that suited a gym and this gym's ethos.
+
+* Orange: vibrant, energetic, stimulate, invigorate, health & vitality.
+    * A gym is an active and energetic environment and being active can lead to better health.
+* Black: power, control, dicipline, luxury, exclusive.
+    * Associated with becoming strong, following a plan, beign dedicated to your fitness journey.
+    * Ties in with the name "Elite Fitness"
+* White: clean, simple, calm
+    * A gym should always be clean.
+    * The structure of the gym and classes makes it easy to follow foir any fitness level.
+    * Exercise releases endorphins which can help lift your mood and make you feel relaxed.
+
 # Features
+
+This is a fully responsive website allowing the user to find out all they need about this gyms
+
+![Image showing site on multiple devices](assets/images/responsive-devices.png)
 
 ### Navigation Bar
 
