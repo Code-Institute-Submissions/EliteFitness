@@ -458,7 +458,6 @@ footer a {
         height: 300px;
         width: 300px; 
     }
-
 }
 
 @media screen and (max-width: 767.98px) {
@@ -474,7 +473,6 @@ footer a {
     .jumbotron {
         height: 50vh;
     }
-
 }
 
 
@@ -492,7 +490,6 @@ footer a {
         margin-left: 100px;
         margin-right: 100px;
     }
-
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -515,5 +512,4 @@ footer a {
         height: 400px;
         width: 400px;
     }
-
 }
