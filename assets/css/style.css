@@ -306,10 +306,6 @@ form {
     border-color:  #ca7912;
 }
 
-.form-btn:active {
-    background-color: #ca7912;
-    border-color:  #ca7912;
-}
 
 /* --- Location Details --- */
 
@@ -383,6 +379,12 @@ footer a {
 .header-minor {
     font-weight: 600;
 }
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #ca7912;
+    border-color:  #ca7912;
+}
+
 
 /* --- Media Queries --- */
 
