@@ -29,7 +29,18 @@ I chose to create a website for a gym for this project as exercise is somethign 
 
 # Features
 
-Features of the site
+### Navigation Bar
+
+* The nav
+
+### Home
+
+* There is an image carousel depicting images of a gym and equipment. 
+* There is a clickable button over the image carousel under a banner that provides an insight intot he gym. Clicking this button brings the user to the "About" page.
+* There is a small marketing style introduction giving some information about the gym.
+* The membership options are displayed in three cards.
+* Under the membership cards there is a call to action to contact the gym to find out more. The "Contact us" links to the "Contact page"
+* There is an image gallery showing some images from inside the gym. The thumbnails can be clicked on which shows the fullsize image and the user can click the arrows to navigate to the next image.
 
 # Technologies Used 
 
