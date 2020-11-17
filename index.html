@@ -1,240 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Elite Fitness</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
-		integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elite Fitness</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
+            integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
 
-<body>
+    <body>
 
-	<!-- Header: business name, navbar-->
+        <!-- Header: business name, navbar-->
 
-	<nav class="navbar navbar-expand-lg navbar-dark navbar-expand-sm fixed-top nav-bg">
-		<a class="navbar-brand hvr-fade" href="index.html">Elite Fitness</a>
-		<button
-                class="navbar-toggler ml-auto"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link hvr-fade" href="index.html">Home <span class="sr-only">Current</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-fade" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-fade" href="timetable.html">Timetable</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-fade" href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-expand-sm fixed-top nav-bg">
+            <a class="navbar-brand hvr-fade" href="index.html">Elite Fitness</a>
+            <button
+                    class="navbar-toggler ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link hvr-fade" href="index.html">Home <span class="sr-only">Current</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-fade" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-fade" href="timetable.html">Timetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-fade" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-	<!-- Callout section and image carousel-->
+        <!-- Callout section and image carousel-->
 
-	<section id="carouselExampleIndicators" class="carousel slide container-fluid carousel-container"
-		data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		</ol>
+        <section id="carouselExampleIndicators" class="carousel slide container-fluid carousel-container"
+            data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
 
-		<div class="jumbotron jumbotron-fluid text-center">
-			<div class="container jumbotron-content-container">
-				<h1 class="display-block ">The Personal Training Gym</h1>
-				<a class="btn btn-primary btn-lg jumbotron-btn" href="about.html" role="button">Learn more</a>
-			</div>
-		</div>
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container jumbotron-content-container">
+                    <h1 class="display-block ">The Personal Training Gym</h1>
+                    <a class="btn btn-primary btn-lg jumbotron-btn" href="about.html" role="button">Learn more</a>
+                </div>
+            </div>
 
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="assets/images/gym-main-1.jpg" class="d-block w-100 carousel-image image-fluid" alt="man with barbell">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/gym-main-1.jpg" class="d-block w-100 carousel-image image-fluid" alt="man with barbell">
+                        </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/gym-main-2.jpg" class="d-block w-100 carousel-image image-fluid" alt="barbell">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/gym-main-3.jpg" class="d-block w-100 carousel-image image-fluid" alt="man doing pull up">
+                        </div>
+                        </div>
+
+
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+        </section>
+
+        <!-- Intro of gym-->
+        
+        <article class="intro-content header mb-4 mt-4 text-center container-fluid">
+            <h3>Elite Fitness is not your typical gym. The coaches are fun, friendly and are trained to the highest standard to ensure that when you visit you are getting the most out of your session.</h3>
+        </article>
+        
+        <!-- Membership Options-->
+
+        <section class="container-fluid membership-options-container">
+            <header class="text-center mb-4 mt-4">
+                <h1 class="header-other">Membership Options</h1>
+            </header>
+            <div class="row card-deck">
+                <div class="col-md-6 col-lg-4 pb-3">
+                    <div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
+                        <div class="card-body">
+                            <h4 class="card-title header-minor">3 Sessions</h4>
+                            <ul>
+                                <li>3 training sessions a week</li>
+                                <li>Access to private members Facebook group</li>
+                                <li>Nutrional guides</li>
+                                <li>InBody body composition scan €20</li>
+                            </ul>
+                            <p class="header"><strong>€8/week</strong></p>
+                        </div>
                     </div>
-				<div class="carousel-item">
-					<img src="assets/images/gym-main-2.jpg" class="d-block w-100 carousel-image image-fluid" alt="barbell">
+                </div>
+                <div class="col-md-6 col-lg-4 pb-3">
+                    <div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
+                        <div class="card-body">
+                            <h4 class="card-title header-minor">3-5 Sessions</h4>
+                            <ul>
+                                <li>3-5 training sessions a week</li>
+                                <li>Access to private members Facebook group</li>
+                                <li>Nutrional guides</li>
+                                <li>InBody body composition scan 1 free each month</li>
+                            </ul>
+                            <p class="header"><strong>€15/week</strong></p>
+                        </div>
                     </div>
-					<div class="carousel-item">
-						<img src="assets/images/gym-main-3.jpg" class="d-block w-100 carousel-image image-fluid" alt="man doing pull up">
+                </div>
+                <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 pb-3">
+                    <div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
+                        <div class="card-body">
+                            <h4 class="card-title header-minor">Unlimited Sessions</h4>
+                            <ul>
+                                <li>Unlimited training sessions a week</li>
+                                <li>Access to private members Facebook group</li>
+                                <li>Nutrional coaching</li>
+                                <li>InBody body composition scan unlimited free</li>
+                            </ul>
+                            <p class="header"><strong>€20/week</strong></p>
+                        </div>
                     </div>
-					</div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Images-->
 
-					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="false"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="false"></span>
-						<span class="sr-only">Next</span>
-					</a>
-	</section>
+        <section class="container-fluid gallery-container text-center mb-3">
+            <header class="text-center mb-4 mt-4">
+                <h1 class="header">Take A Look Inside</h1>
+            </header>
+            <div class="row image-container-row">
+                <div class="col-xl-2 col-md-4 col-12 image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-1.jpg"><img src="assets/images/gym-gallery-1-t.jpg " alt="image of gym"></a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-12  image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-2.jpg"><img src="assets/images/gym-gallery-2-t.jpg" alt="image of gym"></a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-12 image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-3.jpg"><img src="assets/images/gym-gallery-3-t.jpg" alt="image of gym"></a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-12 image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-4.jpg"><img src="assets/images/gym-gallery-4-t.jpg" alt="image of gym"></a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-12 image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-5.jpg"><img src="assets/images/gym-gallery-5-t.jpg" alt="image of gym"></a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-12  image-container">
+                    <a data-fancybox="gallery"
+                        href="assets/images/gym-gallery-6.jpg"><img src="assets/images/gym-gallery-6-t.jpg" alt="image of gym"></a>
+                </div>
+            </div>
+        </section>
 
-	<!-- Intro of gym-->
+        <!-- Footer -->
 
-	<section class="container-fluid">
-		<div class="intro-content header mb-4 mt-4 text-center">
-			<article>Elite Fitness is not your typical gym. The coaches are fun, friendly and are trained to the highest
-				standard to ensure that when you visit you are getting the most out of your session.</article>
-		</div>
-	</section>
+        <footer class="container-fluid section-border-top">
+            <div class="row">
+                <div class="col-sm-4 footer-item">
+                    <h6 class="footer-heading"><i class="fas fa-clock" aria-hidden="true"></i> Opening Hours</h6>
+                    <p class="footer-content">Monday - Friday: 8:00am - 7:00pm</p>
+                    <p class="footer-content">Saturday & Sunday: 9:00am - 12:30pm</p>
+                </div>
+                <div class="col-sm-4 footer-item">
+                    <h6 class="footer-heading"><i class="fas fa-address-card" aria-hidden="true"></i> Contact</h6>
+                    <p class="footer-content">Elite Fitness</p>
+                    <p class="footer-content">Unit 18, Skycourt Shopping Centre</p>
+                    <p class="footer-content">Shannon, Co. Clare</p>
 
-	<!-- Membership Options-->
+                    <p class="footer-content">061 123456</p>
 
-	<section class="container-fluid membership-options-container">
-		<header class="text-center mb-4 mt-4">
-			<h1 class="header-other">Membership Options</h1>
-		</header>
-		<div class="row card-deck">
-			<div class="col-md-6 col-lg-4 pb-3">
-				<div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
-					<div class="card-body">
-						<h4 class="card-title header-minor">3 Sessions</h4>
-						<ul>
-							<li>3 training sessions a week</li>
-							<li>Access to private members Facebook group</li>
-							<li>Nutrional guides</li>
-							<li>InBody body composition scan €20</li>
-						</ul>
-						<p class="header"><strong>€8/week</strong></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-4 pb-3">
-				<div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
-					<div class="card-body">
-						<h4 class="card-title header-minor">3-5 Sessions</h4>
-						<ul>
-							<li>3-5 training sessions a week</li>
-							<li>Access to private members Facebook group</li>
-							<li>Nutrional guides</li>
-							<li>InBody body composition scan 1 free each month</li>
-						</ul>
-						<p class="header"><strong>€15/week</strong></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 pb-3">
-				<div class="card membership-content shadow p-3 mb-3 bg-white rounded text-center h-100">
-					<div class="card-body">
-						<h4 class="card-title header-minor">Unlimited Sessions</h4>
-						<ul>
-							<li>Unlimited training sessions a week</li>
-							<li>Access to private members Facebook group</li>
-							<li>Nutrional coaching</li>
-							<li>InBody body composition scan unlimited free</li>
-						</ul>
-						<p class="header"><strong>€20/week</strong></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                    <p class="footer-content">info@elite.ie</p>
+                </div>
+                <div class="col-sm-4 footer-item">
+                    <h6 class="footer-heading"><i class="fas fa-users" aria-hidden="true"></i> Social</h6>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com"
+                                target="_blank"><i class="fab fa-facebook-square footer-social-icon" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
 
-	<!-- Images-->
+                            <a href="https://www.instagram.com"
+                                target="_blank"><i class="fab fa-instagram footer-social-icon" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
 
-	<section class="container-fluid gallery-container text-center mb-3">
-		<header class="text-center mb-4 mt-4">
-			<h1 class="header">Take A Look Inside</h1>
-		</header>
-		<div class="row image-container-row">
-			<div class="col-xl-2 col-md-4 col-12 image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-1.jpg"><img src="assets/images/gym-gallery-1-t.jpg " alt="image of gym"></a>
-			</div>
-			<div class="col-xl-2 col-md-4 col-12  image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-2.jpg"><img src="assets/images/gym-gallery-2-t.jpg" alt="image of gym"></a>
-			</div>
-			<div class="col-xl-2 col-md-4 col-12 image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-3.jpg"><img src="assets/images/gym-gallery-3-t.jpg" alt="image of gym"></a>
-			</div>
-			<div class="col-xl-2 col-md-4 col-12 image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-4.jpg"><img src="assets/images/gym-gallery-4-t.jpg" alt="image of gym"></a>
-			</div>
-			<div class="col-xl-2 col-md-4 col-12 image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-5.jpg"><img src="assets/images/gym-gallery-5-t.jpg" alt="image of gym"></a>
-			</div>
-			<div class="col-xl-2 col-md-4 col-12  image-container">
-				<a data-fancybox="gallery"
-					href="assets/images/gym-gallery-6.jpg"><img src="assets/images/gym-gallery-6-t.jpg" alt="image of gym"></a>
-			</div>
-		</div>
-	</section>
+                            <a href="https://www.twitter.com"
+                                target="_blank"><i class="fab fa-twitter-square footer-social-icon" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
-	<!-- Footer -->
-
-	<footer class="container-fluid section-border-top">
-		<div class="row">
-			<div class="col-sm-4 footer-item">
-				<h6 class="footer-heading"><i class="fas fa-clock" aria-hidden="true"></i> Opening Hours</h6>
-				<p class="footer-content">Monday - Friday: 8:00am - 7:00pm</p>
-				<p class="footer-content">Saturday & Sunday: 9:00am - 12:30pm</p>
-			</div>
-			<div class="col-sm-4 footer-item">
-				<h6 class="footer-heading"><i class="fas fa-address-card" aria-hidden="true"></i> Contact</h6>
-				<p class="footer-content">Elite Fitness</p>
-				<p class="footer-content">Unit 18, Skycourt Shopping Centre</p>
-				<p class="footer-content">Shannon, Co. Clare</p>
-
-				<p class="footer-content">061 123456</p>
-
-				<p class="footer-content">info@elite.ie</p>
-			</div>
-			<div class="col-sm-4 footer-item">
-				<h6 class="footer-heading"><i class="fas fa-users" aria-hidden="true"></i> Social</h6>
-				<ul class="list-inline">
-					<li class="list-inline-item">
-						<a href="https://www.facebook.com"
-							target="_blank"><i class="fab fa-facebook-square footer-social-icon" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
-
-						<a href="https://www.instagram.com"
-							target="_blank"><i class="fab fa-instagram footer-social-icon" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
-
-						<a href="https://www.twitter.com"
-							target="_blank"><i class="fab fa-twitter-square footer-social-icon" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-	integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+    </body>
 
 </html>
