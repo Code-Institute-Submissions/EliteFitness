@@ -4,6 +4,7 @@
 * Tested using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
     * Errors fixed: invalid value for font weight, also "px" used in font weight and an empty width value removed. 
     * Checked CSS in the validator again once these errors were removed and there were no further errors. 
+    * Further checks after adding Hover.css classes to my CSS file returned an error where I had set "none " as the background colour. I set this to "transparent".
 
 ### HTML 
 * Tested using the [W3C Validator](https://validator.w3.org/).
