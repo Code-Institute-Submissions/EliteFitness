@@ -44,6 +44,41 @@
 
 # Manual Testing Of Elements On The Site
 
+### Responsiveness:
+
+To check the site was responsive and works correclty I used Chrome developers tools to simulate multiple devices and breakpoints.
+
+#### Devices:
+* Moto G4
+* Pixel 2
+* Galaxy S5
+* iPhone 5/SE
+* iPhone 6/7/8 & Plus
+* iPhone X
+* iPad
+* iPad Pro
+
+I also checked using different browsers.
+
+#### Browsers:
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+
+I also used my own mobile device to check the site, and viewed it on a 27" and 24" monitor.
+
+#### Issues Found:
+
+* From viewing on devices I noticed a very small portion of whitespace between my footer and image gallery. 
+    * I added padding to the bottom of the image gallery to fix this.
+* On Edge and Firefox I noticed there was whitespace under the footer on some of the pages. 
+    * Padding added to the bottom of the footer fixed this.
+* There is also an occasional bug that occurs when viewing any page of the site on using developer tools. It usually occurs when viewing as a mobile device but sometimes on larger screen views. When opening the developer tools in responsive view, occasionally whitespace is seen running from top to bottom on the right hand side. If the page is open in developer tools as a large screen size, setting to a mobile device, closing developer tools and then re-opening causes this to appear.
+    * This disappears if a site button is selected, the page is refreshed, any change is made in developer tools or navigating
+    * I have checked my css and html and cannot see anything causing this.
+    * This does not occur when opening the site in the browser.
+    * This does not happen when I view the site on my mobile device. 
+
 ### Navigation Bar:
 * Hover over the logo "Elite Fitness" to see it change colour.
 * The active page is a different colour to the other naigation links as we are currently on that page.
