@@ -183,6 +183,7 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 * Fancybox used for image gallery.
 * Bootstrap used throughout website.
 * Iframe taken from Google Maps for the map included in the contact page.
+* [Hover.CSS](https://github.com/IanLunn/Hover/blob/master/css/hover.css) some classes copied into my css file to use for styling instead of cdn link in head element.
 
 ### Content:
 
