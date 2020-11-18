@@ -395,6 +395,9 @@ footer a {
     border-color:  #ca7912;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
 
 /* --- Media Queries --- */
 
