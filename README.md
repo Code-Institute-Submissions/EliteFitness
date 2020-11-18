@@ -1,10 +1,10 @@
 # Elite Fitness
 
-This is a website for a gym called Elite Fitness. They specilaise in small group personal training which sets them apart from other gyms.
+This is a website for a gym called Elite Fitness. They specialise in small group personal training which sets them apart from other gyms.
 
 The website's purpose is to provide information to current and new clients about their style of gym and what they offer.
 
-The website shows the user what it is like inside the gym, what the memerbship options are, when the classes are on and what the class options are, it provides contact and address information including a Google Map view. There is also a form for the user to send a message to the gym.
+The website shows the user what it is like inside the gym, what the membership options are, when the classes are on and what the class options are, it provides contact and address information including a Google Map view. There is also a form for the user to send a message to the gym.
 
 I chose to create a website for a gym for this project as exercise is something I enjoy and would usually go to the gym four or five tines a week. 
 
@@ -43,7 +43,7 @@ The gym this website is based on is the gym I am a member of.
 * Six images instead of five for the image gallery as it made better use of the space and also provides more information for the user.
 * Image gallery layout 3 x 2 on tablet and as a block on mobile as it looked better.
 * No image shown in the "About Us" section as I felt the text was better on it's own.
-* Images and paragraps for the gym trainers not represented on a carousel. On large screens and up they remain side by side, on small and medium screens they are shown as a block.
+* Images and paragraphs for the gym trainers not represented on a carousel. On large screens and up they remain side by side, on small and medium screens they are shown as a block.
 * Cards added above the timetable as I thought it would be good for the user to see what the different options in the timetable were.
 * The form is the first section on the "Contact" page so the user could find it immediately if they wanted to contact the gym.
 * Social media icons and links are the last item shown on the footer.
@@ -54,12 +54,12 @@ The colours used can affect how a user responds or feels. I chose colours that s
 
 * Orange: vibrant, energetic, stimulate, invigorate, health & vitality.
     * A gym is an active and energetic environment and being active can lead to better health.
-* Black: power, control, dicipline, luxury, exclusive.
+* Black: power, control, discipline, luxury, exclusive.
     * Associated with becoming strong, following a plan, beign dedicated to your fitness journey.
     * Ties in with the name "Elite Fitness"
 * White: clean, simple, calm
     * A gym should always be clean.
-    * The structure of the gym and classes makes it easy to follow foir any fitness level.
+    * The structure of the gym and classes makes it easy to follow for any fitness level.
     * Exercise releases endorphins which can help lift your mood and make you feel relaxed.
 
 # Features
@@ -70,7 +70,7 @@ This is a fully responsive website allowing the user to find out all they need a
 
 ### Navigation Bar:
 
-* The navigation bar is always shown on the top of the screen across all pages and is still shown when scrolling. It has an opacity set so the user can see what is underneath. This is the same on mobile also.
+* The navigation bar is always shown at the top of the screen across all pages and is still shown when scrolling. It has an opacity set so the user can see what is underneath. This is the same on mobile as well.
 * The name of the business changes colour on hover on desktop.
 * The name of the business can be clicked and brings the user back to the home page. 
 * The navigation bar contains links to all pages of the site. The active page is coloured on all devices and hovering over the page names on desktop changes the colour.
@@ -104,7 +104,7 @@ This is a fully responsive website allowing the user to find out all they need a
 
 ### Timetable: 
 
-* There are two cards above the timetable that provide information on what is shceduled in the timetable.
+* There are two cards above the timetable that provide information on what is scheduled in the timetable.
 * These cards are shown above the timetable so that when a user is viewing on a mobile device they are able to see what each is. If they did not show at the top, the user would be viewing the timetable first and would need to scroll down to see this information and there is a possibility they would not.
 * These cards are shown as a block on mobile devices.
 * There is a timetable created using a HTML table. This allows the user to scroll horizontally on smaller screen sizes.
@@ -113,9 +113,9 @@ This is a fully responsive website allowing the user to find out all they need a
 
 * There is a form at the top of the page.
 * There is a subtitle giving examples of why the user could send them a message.
-* The form allows the user to input their name, phone number, email address and the message. Each of these inputs is required and each section is labelled.
+* The form allows the user to input their name, phone number, email address and the message. Each of these inputs is required and each section is labeled.
 * The form will only accept an email address in the email section.
-* The send button changes colour on hover on a desktop.
+* The "send" button changes colour on hover on a desktop.
 * The bottom section of the page contains address details, contact information and opening hours.
 * The bottom section also contains Google Maps. The user can move the map around, zoom in or out and also open in a new browser tab.
 
@@ -137,7 +137,7 @@ All testing information can be located in the [TESTING.md](https://github.com/Ho
 
 The website was developed using [Gitpod](https://www.gitpod.io/) which is a cloud based IDE.
 
-This was commited to git and pushed to GitHub using Gitpod's built in git function.
+This was committed to git and pushed to GitHub using Gitpod's built in git function.
 
 The following steps were carried to deploy the website to [GitHub Pages](https://hollyc7.github.io/EliteFitness/) from the [GitHub repository](https://github.com/HollyC7/EliteFitness).
 
@@ -173,7 +173,7 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 
 1. Log in to GitHub.
 2. Open the repository HollyC7/EliteFitness.
-3. On the top right located under yoru profile icon, select "fork".
+3. On the top right located under your profile icon, select "fork".
 4. There will not be a copy in your own repository.
 
 # Credits
@@ -186,7 +186,7 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 
 ### Content:
 
- * No written content directly taken from other sources however inspiration drawn from the Facebook posts and membership plans from the gym I am a member of, [Rory Skerrit Fitness Limerick](https://www.facebook.com/pages/category/Fitness-Boot-Camp/Rory-Skerritt-Fitness-Limerick-104753844210216/)
+ * No written content directly taken from other sources however inspiration drawn from the Facebook posts and membership plans from the gym I am a member of, [Rory Skerritt Fitness Limerick](https://www.facebook.com/pages/category/Fitness-Boot-Camp/Rory-Skerritt-Fitness-Limerick-104753844210216/)
 
 ### Media:
 
@@ -205,8 +205,8 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 * [Google Maps](https://www.google.ie/maps/place/Skycourt+Shopping+Centre,+Shannon+Town+Centre,+Tullyvarraga,+Shannon,+Co.+Clare/@52.710461,-8.8818376,17z/data=!3m1!4b1!4m5!3m4!1s0x485b41d4fed069cd:0x7897afe26116153b!8m2!3d52.7104578!4d-8.8796489) for the map I used on my contact page.
 * [Am I Responsive?](http://ami.responsivedesign.is/#) to show the site on multiple devices.
 
-# Acknowledgements
+# Acknowledgments
 
-* I took inspiration for this website and the gym ethos from the gym I am a memeber of, [Rory Skerrit Fitness Limerick](https://www.facebook.com/pages/category/Fitness-Boot-Camp/Rory-Skerritt-Fitness-Limerick-104753844210216/). They specialise in small group personal training. 
+* I took inspiration for this website and the gym ethos from the gym I am a memeber of, [Rory Skerritt Fitness Limerick](https://www.facebook.com/pages/category/Fitness-Boot-Camp/Rory-Skerritt-Fitness-Limerick-104753844210216/). They specialise in small group personal training. 
 * The Code Institute Slack community for their advice.
 * My mentor for his advice, suggestions and feedback.

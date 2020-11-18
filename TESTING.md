@@ -35,9 +35,9 @@
 * Information is given on multiple ways to contact the gym including a form to send a message, as well as their address and a map.
 
 ### User Interaction:
-* From the "Home" page the user can see what the gym looks like inside, read a short summary about the gym and also see the membership options. There are two call to action buttons on this page, one invites the user to learn more about the gym by bringin them to the about page, the other invites them to get in touch with the gym about memberships byy directing them to the "Contact" page.
+* From the "Home" page the user can see what the gym looks like inside, read a short summary about the gym and also see the membership options. There are two call to action buttons on this page, one invites the user to learn more about the gym by bringing them to the about page, the other invites them to get in touch with the gym about memberships by directing them to the "Contact" page.
 * The "About" page tells the user the ethos for the gym and what they do. It also provides information about the coaches there.
-* The "Timetable" page provides details of the class options and what they are, aswell as a full timetable for the week.
+* The "Timetable" page provides details of the class options and what they are, as well as a full timetable for the week.
 * The "Contact" page contains a form fr the user to send a message and give suggestions of why they may get in touch. This page also tells the user the opening hours, location and contact information. They can also see the location on Google Maps.
 * The navigation bar is always visible even when the user has scrolled down so they can easily navigate to another page.
 * The footer contains important information that the user may want to find quickly such as opening hours, location or contact details.
@@ -68,20 +68,19 @@ I also checked using different browsers.
 I also used my own mobile device to check the site, and viewed it on a 27" and 24" monitor.
 
 #### Issues Found:
-
-* From viewing on devices I noticed a very small portion of whitespace between my footer and image gallery. 
+* From viewing on devices I noticed a very small portion of white space between my footer and image gallery. 
     * I added padding to the bottom of the image gallery to fix this.
-* On Edge and Firefox I noticed there was whitespace under the footer on some of the pages. 
+* On Edge and Firefox I noticed there was white space under the footer on some of the pages. 
     * Padding added to the bottom of the footer fixed this.
-* There is also an occasional bug that occurs when viewing any page of the site on using developer tools. It usually occurs when viewing as a mobile device but sometimes on larger screen views. When opening the developer tools in responsive view, occasionally whitespace is seen running from top to bottom on the right hand side. If the page is open in developer tools as a large screen size, setting to a mobile device, closing developer tools and then re-opening causes this to appear.
+* There is also an occasional bug that occurs when viewing any page of the site on using developer tools. It usually occurs when viewing as a mobile device but sometimes on larger screen views. When opening the developer tools in responsive view, occasionally white space is seen running from top to bottom on the right-hand side. If the page is open in developer tools as a large screen size, setting to a mobile device, closing developer tools and then re-opening causes this to appear.
     * This disappears if a site button is selected, the page is refreshed, any change is made in developer tools or navigating
-    * I have checked my css and html and cannot see anything causing this.
+    * I have checked my CSS and HTML and cannot see anything causing this.
     * This does not occur when opening the site in the browser.
     * This does not happen when I view the site on my mobile device. 
 
 ### Navigation Bar:
 * Hover over the logo "Elite Fitness" to see it change colour.
-* The active page is a different colour to the other naigation links as we are currently on that page.
+* The active page is a different colour to the other navigation links as we are currently on that page.
 * Change screen size to mobile to see that the navigation menu turns to a collapsible burger menu.
 * In mobile open the menu to see that the active page in the menu is a different colour to the other menu links.
 * Verify that the navigation bar stays visible on top of the screen when scrolling.
@@ -90,8 +89,7 @@ I also used my own mobile device to check the site, and viewed it on a 27" and 2
 * Three pieces of information available.
 * Verify icons next to headings are hidden on screen readers using aria-hidden="true".
 * Verify icons used for social media links are hidden on screen readers using aria-hidden="true" and instead show text using a span.
-* Change screen size to see the footer is repsonsive and the layout of information changes on mobiles.
-
+* Change screen size to see the footer is responsive and the layout of information changes on mobiles.
 
 ### Home:
 
@@ -110,33 +108,33 @@ I also used my own mobile device to check the site, and viewed it on a 27" and 2
 * Contrast between text and background colour.
 
 #### Membership Options:
-* Clearly labelled section. 
+* Clearly labeled section. 
 * Information displayed on three easy to read cards.
 * Hover over "Contact Us" to see the colour change.
 * Select "Contact Us" and be redirected to the "Contact" page.
 * Changed screen size to see that the card layout is repsonsive based on screen sizes.
 
 #### Image Gallery:
-* Clearly labelled section.
-* Image thumbnails are appropriate size and image is not distored/
+* Clearly labeled section.
+* Image thumbnails are appropriate size and image is not distored.
 * Select an image to bring up the full size
   * From here the arrows can be selected to navigate through the other images.
   * The option for an image slideshow is available.
   * The images can be viewed in a grid.
-  * Using a mousewheel will navigate to the next image.
-  * Selecing "X" will close this view.
-* Change the screen size to see that the image gallery is repsonsive.
+  * Using a mouse wheel will navigate to the next image.
+  * Selecting "X" will close this view.
+* Change the screen size to see that the image gallery is responsive.
 * On mobile after selecting on of the thumbnails, swipe to change the image. (checked using personal device)
 
 ### About:
 
 #### About Us:
-* Clearly labelled section.
+* Clearly labeled section.
 * Information is legible with contrast between text and background colour.
     * Spelling mistake found and corrected.
 
 #### Meet The Team:
-* Clearly labelled section.
+* Clearly labeled section.
 * Change screen sizes to ensure photos are not distored.
 * Information is clear and legible.
     * For consistency in this section changed "10" to "ten" in the trainer biography.
@@ -145,7 +143,7 @@ I also used my own mobile device to check the site, and viewed it on a 27" and 2
 ### Timetable:
 
 #### Timetable Options:
-* Clearly labelled section.
+* Clearly labeled section.
 * Timetable options clearly defined and explained on easy to read cards.
 * Changed screen size to see that this is responsive and displays differently on mobile.
 
@@ -153,24 +151,24 @@ I also used my own mobile device to check the site, and viewed it on a 27" and 2
 * Timetable created using a HTML table is easy to follow and read.
 * Contrast between content and background.
 * Changed screen size to see timetable scrolls horizontally.
-    * Changed left & right padding as timetakle was pushed to the right on smaller screens.
+    * Changed left & right padding as timetable was pushed to the right on smaller screens.
 
 ### Contact:
 
 #### Form:
-* Clearly labelled section.
+* Clearly labeled section.
 * Heading subtitle tells users why they might want to send a message.
 * Form requires name, email, phone number and message.
 * Email will only be accepted when "@" is included.
-* Changed screen sizes to see form is repsonsive and is sized based on screen size.
-* On medium and small screen sizes the input for email and phone number ar eon a seperate line.
+* Changed screen sizes to see form is responsive and is sized based on screen size.
+* On medium and small screen sizes the input for email and phone number are on a separate line.
 * Hover over button to see the colour change.
     * When clicked the button turns blue. Have changed this in the CSS file. 
 
 #### Find Us 
-* Clearly labelled section.
-* Address, contact information and opening hours are easy to read with cntrast between text and background.
+* Clearly labeled section.
+* Address, contact information and opening hours are easy to read with contrast between text and background.
 * Map is clearly visible and can be zoomed and out or can be opened in a new browser tab.
-* Changed screen size to see this section is responsive and displays differntly depending on screensize.
+* Changed screen size to see this section is responsive and displays differently depending on screen size.
 
 
