@@ -124,7 +124,12 @@ body {
 /* --- Intro section --- */
 
 .intro-content {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.intro-content p {
+    margin-bottom: 0px;
 }
 
 /* --- Membership options --- */
@@ -415,6 +420,10 @@ footer a {
     .jumbotron-content-container {
         top: 60%;
     
+    }
+
+    .intro-content {
+    font-size: 16px;
     }
 
     .membership-container {
