@@ -1,6 +1,5 @@
 # Elite Fitness
 
-# Project Introduction
 This is a website for a gym called Elite Fitness. They specilaise in small group personal training which sets them apart from other gyms.
 
 The website's purpose is to provide information to current and new clients about their style of gym and what they offer.
@@ -22,7 +21,7 @@ The gym this website is based on is the gym I am a member of.
   4. As a site visitor, I want to find out about the cost of a membership.
   5. As a site visitor, I want to find out how I can contact the gym and where it is located and if they have social media.
 
-#### Site Owner;
+#### Site Owner:
   1. As the site owner, I want to provide information about the gym and what we do to attract business.
   2. As the site owner, I want to show what it looks like inside the gym/during sessions.
   3. As the site owner, I want to provide information about session times.
@@ -127,7 +126,8 @@ This is a fully responsive website allowing the user to find out all they need a
 * Bootstrap
 * Fancybox
 * [Resizeimage.net](https://resizeimage.net/) for cropping and resizing images used in the project.
-
+* [Hover.CSS](https://ianlunn.github.io/Hover/) for additional styling.
+* [Favicon Generator](https://www.favicon-generator.org/) for turning an icon into a favicon.
 
 # Testing
 
@@ -139,7 +139,7 @@ The website was developed using [Gitpod](https://www.gitpod.io/) which is a clou
 
 This was commited to git and pushed to GitHub using Gitpod's built in git function.
 
-The following steps were carried to deploy the website to [GitHub Pages](https://pages.github.com/) from the [GitHub repository](https://github.com/HollyC7/EliteFitness).
+The following steps were carried to deploy the website to [GitHub Pages](https://hollyc7.github.io/EliteFitness/) from the [GitHub repository](https://github.com/HollyC7/EliteFitness).
 
 1. Log in to GitHub.
 2. Select the repository HollyC7/EliteFitness.
@@ -148,29 +148,19 @@ The following steps were carried to deploy the website to [GitHub Pages](https:/
 5. Once this has been selected the page is automatically refreshed and the site has been deployed.
 6. Navigate back to the GitHub Pages section to obtain the URL for the deployed site.
 
-### How To Run This Project Locally:
+### How To Run This Project With Gitpod:
 
-#### Clone The Project In GitHub:
-
-1. Create a GitHub account.
-2. Open the repository HollyC7/EliteFitness.
-
-##### Without Browser Extension:
-
+1. Open the repository in GitHub HollyC7/EliteFitness.
 1. Click the green "code" button on the top right.
 2. Copy the url: https://github.com/HollyC7/EliteFitness.
 3. Paste the url into the url bar of a new tab.
 4. Add gitpod.io/# to the start of the url copied from GitHub.
 5. A new workspace will open.
 
-##### With Google Chrome GitHub Browser Extension:
 
-1. Click the green "gitpod" button on the top right.
-2. A new workspace will open.
+### How To Run This In A Local IDE:
 
-#### How To Run This In A Local IDE:
-
-1. Open the repository HollyC7/EliteFitness.
+1. Open the repository in GitHub HollyC7/EliteFitness.
 2. Click the green "code" button on the top right.
 3. Copy the URL from the HTTPS section.
 4. Open the terminal in your local IDE.
@@ -202,6 +192,7 @@ Forking the project allows you to make a copy of the project in your own GitHub 
 ### Media:
 
 * Images of the gym, gym trainers and orange background image taken from [Pxhere](https://pxhere.com/) and [Pexels](https://www.pexels.com/).
+* [Font Awesome](https://fontawesome.com/) for icons used.
 
 ### Resources:
 
