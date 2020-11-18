@@ -13,7 +13,7 @@ body {
 .navbar {
     margin-bottom: 0;
     border: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav-bg {
@@ -90,7 +90,7 @@ body {
     position: absolute;
     z-index: 1;
     clear: both;
-    width: 100%;
+    width: 100vw;
     height: inherit;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
@@ -136,7 +136,7 @@ body {
 .membership-options-container {
     flex: 1 1 auto;
     background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
-    width: 100%;
+    width: 100vw;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -194,7 +194,7 @@ body {
     background-color: #fafafa;
     color: #191919;
     background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
-    width: 100%;
+    width: 100vw;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -241,7 +241,7 @@ body {
     padding-top: 90px;
     padding-bottom: 15px;
     background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
-    width: 100%;
+    width: 100vw;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -276,7 +276,7 @@ body {
 /* --- Contact form --- */
 
 .form-container {
-    width: 100%;
+    width: 100vw;
     background: url("../images/orange-bg.jpg") no-repeat center center fixed;  
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -395,7 +395,14 @@ footer a {
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.3);
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #ca7912;
+    border-color:  #ca7912;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.3);
 }
 
 /* --- Media Queries --- */
