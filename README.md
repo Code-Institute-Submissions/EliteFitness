@@ -118,6 +118,7 @@ This is a fully responsive website allowing the user to find out all they need a
 * The "send" button changes colour on hover on a desktop.
 * The bottom section of the page contains address details, contact information and opening hours.
 * The bottom section also contains Google Maps. The user can move the map around, zoom in or out and also open in a new browser tab.
+    * A future feature I would like to include is a pop up message to the user after they have submitted the form.
 
 # Technologies Used
 
