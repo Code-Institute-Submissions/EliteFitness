@@ -354,10 +354,15 @@ footer {
     text-align: center;
 }
 
-.footer-social-icon{
+.footer-social-icon {
     color: #f5f5f5;
     font-size: 30px;
     padding: 0 3px 0 2.5px;
+}
+
+.footer-social-icon:hover {
+    color: #f48c06;
+    background: transparent;
 }
 
 footer a {
