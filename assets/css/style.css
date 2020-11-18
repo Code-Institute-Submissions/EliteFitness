@@ -40,7 +40,7 @@ body {
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: none; /* colour changed to suit my site */
+  background-color: transparent; /* colour changed to suit my site */
   color: white;
 }
 
