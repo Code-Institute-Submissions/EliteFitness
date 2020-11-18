@@ -141,21 +141,20 @@ This was commited to git and pushed to GitHub using Gitpod's built in git functi
 
 The following steps were carried to deploy the website to [GitHub Pages](https://hollyc7.github.io/EliteFitness/) from the [GitHub repository](https://github.com/HollyC7/EliteFitness).
 
-1. Log in to GitHub.
-2. Select the repository HollyC7/EliteFitness.
-3. Select Settings from the options at the top of the page and scroll down to the GitHub pages section.
-4. From Source select the "master" branch from the dropdown list and select "save".
-5. Once this has been selected the page is automatically refreshed and the site has been deployed.
-6. Navigate back to the GitHub Pages section to obtain the URL for the deployed site.
+1. Open the repository in GitHub HollyC7/EliteFitness.
+2. Select Settings from the options at the top of the page and scroll down to the GitHub pages section.
+3. From Source select the "master" branch from the dropdown list and select "save".
+4. Once this has been selected the page is automatically refreshed and the site has been deployed.
+5. Navigate back to the GitHub Pages section to obtain the URL for the deployed site.
 
 ### How To Run This Project With Gitpod:
 
 1. Open the repository in GitHub HollyC7/EliteFitness.
-1. Click the green "code" button on the top right.
-2. Copy the url: https://github.com/HollyC7/EliteFitness.
-3. Paste the url into the url bar of a new tab.
-4. Add gitpod.io/# to the start of the url copied from GitHub.
-5. A new workspace will open.
+2. Click the green "code" button on the top right.
+3. Copy the url: https://github.com/HollyC7/EliteFitness.
+4. Paste the url into the url bar of a new tab.
+5. Add gitpod.io/# to the start of the url copied from GitHub.
+6. A new workspace will open.
 
 
 ### How To Run This In A Local IDE:
