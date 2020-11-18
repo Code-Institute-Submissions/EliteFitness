@@ -10,6 +10,7 @@
 * Tested using the [W3C Validator](https://validator.w3.org/).
     * Errors fixed: stray start tag - "script" was outside of the body element on all pages, frameborder from iframe was obsolete.
     * Edits based on warnings: headings added into articles and some sections changed to articles.
+    * Warnings ignored: a section and article do not have heading inside them as the are not needed for those particular areas so I left them out.
     * No further errors found once checked in the validator again.
 
 # User Stories Testing
